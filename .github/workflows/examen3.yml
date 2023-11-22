@@ -8,6 +8,6 @@ jobs:
       run: echo "Me llamo Jesus Eduardo Castellanos Pelayo"
     - name: Print version de Node
       run: node --version
-    -name: Print mi expediente
+    - name: Print mi expediente
       run: echo "Numero de expediente 739449"
     
