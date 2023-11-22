@@ -1,0 +1,13 @@
+on: push
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container: node:16
+    steps:
+    - name: Print mi nombre
+      run: echo "Me llamo Jesus Eduardo Castellanos Pelayo"
+    - name: Print version de Node
+      run: node --version
+    -name: Print mi expediente
+      run: echo "Numero de expediente 739449"
+    
